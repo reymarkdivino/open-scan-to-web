@@ -1,0 +1,79 @@
+# Visual Studio and .NET build artifacts
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.csproj.user
+*.vbproj.user
+
+# Visual Studio temporary files
+*.ncb
+*.aps
+*.bak
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vsp
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet packages
+packages/
+*.nupkg
+!packages/NTwain/
+!packages/iTextSharp/
+
+# Visual Studio Code and other IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup and temporary files
+*.bak
+*.cache
+*.log
+*.swp
+*.tmp
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Sensitive configuration files
+*.config
+*.settings
+*.xml
+!*.vbproj
+!*.sln
+
+# Project-specific exclusions
+# Include Icons and documentation
+!Icons/
+!Icons/*.png
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+!docs/
+!docs/*.md
